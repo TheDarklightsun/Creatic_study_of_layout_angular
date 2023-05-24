@@ -1,0 +1,98 @@
+.whyus {
+  width: 100%;
+  background: #000000;
+
+  .whyus-desktop {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    height: 687px;
+    background: linear-gradient(223.47deg, rgba(109, 149, 252, 0.24) 3.19%, rgba(21, 21, 21, 0) 61.55%);
+
+    .whyus-left {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-family: 'Poppins';
+      font-style: normal;
+
+      .text-title {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.085em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 3px;
+      }
+
+      .line {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 110.42px;
+        border: 3px solid #6D95FC;
+        margin-bottom: 25px;
+      }
+
+      .text-main {
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 109.5%;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        max-width: 780px;
+        color: #FFFFFF;
+        margin-bottom: 45px;
+      }
+
+      .input-touch {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 25px;
+        gap: 10px;
+        width: 175px;
+        height: 46px;
+        border: 3px solid #6D95FC;
+        border-radius: 2px;
+        background: none;
+        color: #FFFFFF;
+      }
+    }
+
+    .whyus-right {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      width: 564px;
+      height: 300px;
+      margin-top: 160px;
+
+      .text-title {
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 166.5%;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+      }
+
+      ul {
+        margin-left: 60px;
+
+        li {
+          font-weight: 300;
+          font-size: 21px;
+          line-height: 166.5%;
+          letter-spacing: 0.04em;
+          color: #FFFFFF;
+          list-style-image: url('../../assets/icons/whyus.png');
+        }
+      }
+    }
+  }
+}

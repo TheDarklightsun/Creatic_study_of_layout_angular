@@ -1,0 +1,54 @@
+.rating {
+  width: 100%;
+  background: #000100;
+  overflow-y: hidden;
+
+  .raring-desktop {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 359px;
+    background: linear-gradient(223.47deg, rgba(109, 149, 252, 0.24) 3.19%, rgba(21, 21, 21, 0) 61.55%);
+
+    .rating__box {
+      display: flex;
+
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 189px;
+        height: 188.26px;
+        font-family: 'Poppins';
+        font-style: normal;
+        margin-right: 194px;
+
+        &:last-child {
+          margin: 0;
+        }
+
+        img {
+          width: 89.75px;
+          height: 89.26px;
+        }
+
+        .text-title {
+          font-weight: 700;
+          font-size: 64px;
+          color: #FFFFFF;
+        }
+
+        .text-box {
+          font-weight: 400;
+          font-size: 21px;
+          line-height: 122.5%;
+          text-align: center;
+          letter-spacing: 0.04em;
+          text-transform: capitalize;
+          color: #6D95FC;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+.touch {
+  width: 100%;
+  height: 869px;
+  background: #000000;
+
+  .touch-desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(223.47deg, rgba(109, 149, 252, 0.24) 3.19%, rgba(21, 21, 21, 0) 61.55%);
+
+    .touch-left {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Poppins';
+      font-style: normal;
+
+      .text-title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 72px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+      }
+
+      .line {
+        width: 97.5px;
+        height: 0;
+        border: 3px solid #FFFFFF;
+        margin-bottom: 26px;
+      }
+
+      .text-main {
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 166.5%;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        width: 589px;
+        margin-bottom: 30px;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+
+        li {
+          font-family: 'Poppins';
+          font-style: normal;
+          margin-bottom: 30px;
+
+          .text-li {
+            font-weight: 700;
+            font-size: 21px;
+            line-height: 166.5%;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+          }
+
+          .text-li-bottom {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 166.5%;
+            letter-spacing: 0.04em;
+            color: #6D95FC;
+          }
+        }
+
+        .li-address {
+          list-style-image: url('../../assets/icons/touch-1.png');
+        }
+
+        .li-call {
+          list-style-image: url('../../assets/icons/touch-2.png');
+        }
+
+        .li-gmail {
+          list-style-image: url('../../assets/icons/touch-3.png');
+        }
+      }
+    }
+
+    .touch-right {
+      display: flex;
+      align-self: center;
+      height: 869px;
+
+      .touch-massage {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Poppins';
+        font-style: normal;
+        align-items: center;
+        align-self: center;
+        width: 539px;
+        height: 606px;
+        background: linear-gradient(179.96deg, #12192B 0.03%, rgba(18, 25, 43, 0) 109.04%);
+        border-radius: 34px;
+
+        .label-input {
+          align-self: start;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 26px;
+          letter-spacing: 0.085em;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          margin-left: 55px;
+          margin-bottom: 5px;
+        }
+
+        .input-name {
+          width: 426px;
+          height: 50px;
+          border: 1px solid #FFFFFF;
+          background: none;
+          margin-bottom: 22px;
+          color: #FFFFFF;
+        }
+
+        .input-email {
+          width: 426px;
+          height: 50px;
+          border: 1px solid #FFFFFF;
+          background: none;
+          margin-bottom: 22px;
+          color: #FFFFFF;
+        }
+
+        .input-message {
+          width: 426px;
+          height: 178px;
+          border: 1px solid #FFFFFF;
+          background: none;
+          margin-bottom: 32px;
+          color: #FFFFFF;
+          box-sizing: border-box;
+        }
+
+        .button-message {
+          align-items: center;
+          padding: 10px 25px;
+          gap: 10px;
+          width: 188px;
+          height: 46px;
+          background: #6D95FC;
+          border: 3px solid #6D95FC;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
